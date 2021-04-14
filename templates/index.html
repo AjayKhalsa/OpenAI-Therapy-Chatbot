@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class = "page" style = "background-image:url(static/images/Background.png); background-size: 100%; background-repeat: no-repeat">
+  <div class = "page-main">
+      <div class = "header py-4", style="height: 64px;">
+        <header class="header">
+          <a href='/' style="text-align: left;">
+            <img src="/static/images/transparent.svg" class="header-brand-img mr-2" alt="Responsly Logo", style="padding: 15px; height:100%;">
+          </a>
+        </header>
+      </div>
+<div style = 'height: 100vh;'>
+  <div class="container hero" style="padding: 20vh;">
+      <div class="row">
+          <div class="col-12 col-lg-12">
+              <h1 style = "font-size: 60px">Talk with an AI Therapist</h1>
+              <p><br> <br>While not a Therapist, the AI responds like one. 
+                <br> Our therapist won't ask to schedule appointments or charge you $100 an hour. <br> <br>
+                Uses GPT3 to power the chat, and love to power the recommendations
+                <br> <br><br><br></p> 
+                <form action="/chat">
+                  <input id ='call_recommendations' class="btn btn-primary" value="Start a Chat" type="submit"/>
+                </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% endblock content %}
