@@ -8,7 +8,6 @@ To use - please clone the repository and then set up your virtual environment us
 
 
     git clone https://github.com/AjayKhalsa/OpenAI-Therapy-Chatbot
-    cd async_flask
     virtualenv AI-Therapist
     ./AI-Therapist/Scripts/activate
     pip install -r requirements.txt  #(or in Windows - sometimes python -m pip install -r requirements.txt )
